@@ -1,0 +1,4 @@
+name = "MyDistanceSimilarityPKG"
+uuid = "0ce3507a-7654-475e-8a68-83845bb39c86"
+authors = ["Leandro Bataglia <leandro.bataglia@gmail.com>"]
+version = "0.1.0"
