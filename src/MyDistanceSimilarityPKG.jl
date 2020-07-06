@@ -1,6 +1,7 @@
 module MyDistanceSimilarityPKG
 using LinearAlgebra
 include("CosineSimilarity.jl")
+include("ManhattanDistance.jl")
 
 export greet
 

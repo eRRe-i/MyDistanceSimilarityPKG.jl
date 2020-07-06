@@ -1,6 +1,6 @@
 function cosine_similarity(set1::Union{Vector, Array}, set2::Union{Vector, Array})
 
-    @assert length(set1) == length(set2) "The sets don't have the same length"
+    @assert length(set1) == length(set2) "Sets don't have the same length."
 
     num = zero(eltype(set1))
     for i in 1:length(set1)
