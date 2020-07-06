@@ -2,6 +2,7 @@ module MyDistanceSimilarityPKG
 using LinearAlgebra
 include("CosineSimilarity.jl")
 include("ManhattanDistance.jl")
+include("EuclideanDistance.jl")
 
 export greet
 
