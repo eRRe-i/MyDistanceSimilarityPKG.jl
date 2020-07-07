@@ -3,6 +3,7 @@ using LinearAlgebra
 include("CosineSimilarity.jl")
 include("ManhattanDistance.jl")
 include("EuclideanDistance.jl")
+include("MinkowskiDistance.jl")
 
 export greet
 
