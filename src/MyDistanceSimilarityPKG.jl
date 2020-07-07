@@ -4,11 +4,12 @@ include("CosineSimilarity.jl")
 include("ManhattanDistance.jl")
 include("EuclideanDistance.jl")
 include("MinkowskiDistance.jl")
+include("JaccardSimilarity.jl")
 
 export greet
 
 """
-This is my fisrt attempt in Julia Package Development.
+This is my first attempt in Julia Package Development.
 Any contribution and code review will be much appreciated! :)
 
 Esta é a minha primeira tentativa em desenvolvimento de Pacotes em Julia.
